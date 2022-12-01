@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logIn_body {
+    height: 792px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(77, 77, 228);
+}
+
+.logIn_form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(209, 209, 228);
+    border: 1px solid rgb(99, 93, 93);
+    padding:32px;
+    border: none;
+    border-radius:11px;
+}
+
+input {
+    background: rgba(0, 111, 250, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15), inset 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
+    border: none;
+    padding-left: 10px;
+    width: 345px;
+    height: 40px;
+    margin-top:13px;
+}
+
+button {
+    
+    box-shadow: 0px 2px 11px rgba(1, 101, 225, 0.4);
+    border-radius: 11px;
+    border: none;
+    width: 345px;
+    height: 40px;
+    cursor: pointer;
+}
+.button{
+    display:flex;
+    align-items: center;
+    padding: 13px;
+    position: relative;
+}
+.button h6{
+    cursor: pointer;
+    margin-top:13px;
+}
+
+.rememberMe {
+    width: 15.4px;
+    height: 15.4px;
+}
